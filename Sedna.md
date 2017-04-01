@@ -6,7 +6,7 @@ Once the VM booted it displayed the IP address which saved us from a pointless d
 Anyhow performing nikto on all http services, running around with nmap can be quite cumbersome. Hence as usual practice I fired up the DeepScan script to do all the basic enumeration for me. The beauty of the script is that it enumerates all common ports and services automatically while you can go for a coffee. You can find the DeepScan script here: https://github.com/tahmed11/DeepScan
  ![Deepscan_Demo](/img/2.png)
  
-At this stage the scan came back with quite few open services and information. I wasted quite a bit of time going after port 8080 as it seemed to be the vulnerable service. After jiggling with PUT method to upload a shell and trying default tomcat credentials it became quite apparent port 8080 wouldn’t work. So I moved on to the next service. 
+At this stage the scan came back with quite few open services and information. I wasted quite a bit of time going after port 8080 as it seemed to be the vulnerable service. After jiggling with PUT method to upload a shell and trying default tomcat credentials it became quite apparent port 8080 was the wrong service. So I moved on to the next service. 
 
   ![Deepscan](/img/3.png)
   
