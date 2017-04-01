@@ -57,6 +57,6 @@ Looking at the kernel version: 3.13.0 it was quite apparent that it is vulnerabl
   
   ![privesc](/img/15.png)
   
-  ** Didnt get the last two flags **
+  **Didnt get the last two flags**
   Overall a fun VM. Good weekend challenge. 
    
