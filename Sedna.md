@@ -7,16 +7,17 @@ Anyhow performing nikto on all http services, running around with nmap can be qu
  ![Deepscan_Demo](/img/2.png)
  
 At this stage the scan came back with quite few open services and information. I wasted quite a bit of time going after port 8080 as it seemed to be the vulnerable service. After jiggling with PUT method to upload a shell and trying default tomcat credentials it became quite apparent port 8080 wouldn’t work. So I moved on to the next service. 
+
   ![Deepscan](/img/3.png)
   
 Deepscan showed a unix user crackmeforpoints I assume it’s another post exploitation flag maybe after cracking the shadow file. I took a note of it and moved on.  
  ![crackmeforpoints](/img/4.png)
  
- Nothing was out of ordinary from the nikto scan:
+ Nothing seemed out of ordinary from the nikto scan:
  
  ![Nikto_again](/img/5.png)
  
-Close inspection of the license.txt revealed the BuilderEngine application was installed.
+But close inspection of the license.txt revealed the BuilderEngine application was installed.
 
  ![license_file](/img/6.png)
  
@@ -32,10 +33,12 @@ Now to put the exploit into action. If the exploit works the shell would be uplo
 
 ![before_exploit](/img/9.png)
 
-Uploaded a reverse shell through the exploit. 
+Uploaded a reverse shell through the exploit.
+
  ![shell_upload](/img/10.png)
  
-After the exploit with the shell uploaded: 
+Files directory after exploitation. The shell was uploaded so it means the exploit worked.
+
   ![after_exploit](/img/11.png)
   
 Now all is left to get the initial shell.
