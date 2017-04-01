@@ -57,5 +57,5 @@ Looking at the kernel version: 3.13.0 it was quite apparent that it is vulnerabl
   
   ![privesc](/img/15.png)
   
-  Overall a fun VM.
+  Overall a fun VM. Good weekend challenge. 
    
