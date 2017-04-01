@@ -10,7 +10,7 @@ At this stage the scan came back with quite few open services and information. I
 
   ![Deepscan](/img/3.png)
   
-Deepscan showed a unix user crackmeforpoints I assume it’s another post exploitation flag maybe after cracking the shadow file. I took a note of it and moved on.  
+Deepscan showed a unix user crackmeforpoints. Not useful at this point. Hence I took a note of it and moved on.  
  ![crackmeforpoints](/img/4.png)
  
  Nothing seemed out of ordinary from the nikto scan:
