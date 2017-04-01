@@ -1,5 +1,5 @@
 # Sedna Vulnhub writeup
-Sedna was pretty straight forward with few of twists and turns. Cheers to Simon for building the VM. 
+Sedna was pretty straight forward with few twists and turns. Cheers to Simon for building the VM. 
 Once the VM booted it displayed the IP address which saved us from a pointless discovery scan. 
  ![Welcome_page](/img/1.png)
  
