@@ -1,5 +1,6 @@
 # Sedna Vulnhub writeup
 Sedna was pretty straight forward with few twists and turns. Cheers to Simon for building the VM.
+https://www.vulnhub.com/entry/hackfest2016-sedna,181/ 
 
 Once the VM booted, it displayed the IP address which saved us from a pointless discovery scan.
 
