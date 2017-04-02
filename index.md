@@ -3,8 +3,6 @@ Sedna was pretty straight forward with few twists and turns. Cheers to Simon for
 https://www.vulnhub.com/entry/hackfest2016-sedna,181/ 
 
 Once the VM booted, it displayed the IP address which saved us from a pointless discovery scan.
-
- ![Welcome_page](/img/1.png)
  
 Anyhow performing nikto on all http services, running around with nmap can be quite cumbersome. Hence as usual practice I fired up the DeepScan script to do all the basic enumeration for me. The beauty of the script is that it enumerates all common ports and services automatically while you can go for a coffee. You can find the DeepScan script here: https://github.com/tahmed11/DeepScan
  ![Deepscan_Demo](/img/2.png)
